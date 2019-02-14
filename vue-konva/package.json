@@ -1,0 +1,82 @@
+{
+  "_from": "vue-konva",
+  "_id": "vue-konva@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-aNyF7crkJBw+espNrxk/cDs5HFNNMldPreT8k8EG3JW71B4ocD5NtJu/sPJWogUGDkdS34lZowW73Bo4ujGoKA==",
+  "_location": "/vue-konva",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-konva",
+    "name": "vue-konva",
+    "escapedName": "vue-konva",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-konva/-/vue-konva-2.0.0.tgz",
+  "_shasum": "1fe0d68d26986f0249a93c755f54259cbff67d8d",
+  "_spec": "vue-konva",
+  "_where": "D:\\TFS-KUUB\\Kuub.PanelButler\\Kuub.CabinetButler.Quasar",
+  "author": {
+    "name": "Rafael Escala",
+    "email": "rafaesc92@gmail.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/konvajs/vue-konva/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Vue binding to canvas element via Konva framework",
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.25",
+    "chai": "^4.2.0",
+    "konva": "^2.0.0",
+    "nwb": "^0.23.0",
+    "sinon": "^6.3.5",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "homepage": "https://github.com/konvajs/vue-konva#readme",
+  "keywords": [
+    "vue",
+    "konva",
+    "canvas"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "vue-konva",
+  "peerDependencies": {
+    "konva": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konvajs/vue-konva.git"
+  },
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "version": "2.0.0"
+}
